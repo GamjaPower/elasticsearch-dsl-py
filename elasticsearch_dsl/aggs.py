@@ -271,6 +271,9 @@ class Sum(Agg):
 class ValueCount(Agg):
     name = 'value_count'
 
+class MedianAbsoluteDeviation(Agg):
+    name = 'median_absolute_deviation'
+
 # pipeline aggregations
 class AvgBucket(Pipeline):
     name = 'avg_bucket'
